@@ -77,7 +77,7 @@ def main():
     if results:
         print("\nSearch Results:")
         for result in results:
-            print(f"Employee ID: {result.emp_id}, Name: {result.name}, Age: {result.age}, Salary: {result.salary}")
+            print(f"Employee ID: {result.emp_id}, Full_Name: {result.name}, Age: {result.age}, Salary: {result.salary}")
     else:
         print("No results found.")
 
